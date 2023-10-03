@@ -43,20 +43,20 @@
 // array / object
 
 
-let arr = [
-    "salom",
-    81,
-    true,
-    false,
-    "Xayr",
-    {},
-    {},
-    [],
-    [], [],
-    NaN,
-    null,
-    undefined
-]
+// let arr = [
+//     "salom",
+//     81,
+//     true,
+//     false,
+//     "Xayr",
+//     {},
+//     {},
+//     [],
+//     [], [],
+//     NaN,
+//     null,
+//     undefined
+// ]
 
 // console.log(arr);
 // // console.log();
@@ -105,8 +105,7 @@ let arr = [
 
 // element qushish
 
-let names = ["Ahmadbek", "Jasur", "Samir", "Javohir", "Ilhom", "Alex", "Alex"]
-let numbers = [1, 515, 5, 1, 5, 1, 51, 6, 51, 6, 51, 1, 651, 6, 51]
+// let numbers = [1, 515, 5, 1, 5, 1, 51, 6, 51, 6, 51, 1, 651, 6, 51]
 
 // names.unshift('Ahmed')
 // names.unshift('Mehmed')
@@ -121,15 +120,24 @@ let numbers = [1, 515, 5, 1, 5, 1, 51, 6, 51, 6, 51, 1, 651, 6, 51]
 
 // qidirish
 
-names.indexOf("Samir")
-// names.find("Samir")
+// names.indexOf("Samir")
+// // names.find("Samir")
 
-console.log(numbers);
+// console.log(numbers);
 
-let filteredNumbers = numbers.filter(item => item < 50)
+// let filteredNumbers = numbers.filter(item => item < 50)
 
-console.log(filteredNumbers);
+// console.log(filteredNumbers);
 
-names.splice(3, 1, "Qodir")
+// names.splice(3, 1, "Qodir")
 
 // console.log(names);
+
+
+
+let names = ["Ahmadbek", "Jasur", "Samir", "Javohir", "Ilhom", "Alex", "Alex"]
+
+
+console.log(
+    names[2]
+);
