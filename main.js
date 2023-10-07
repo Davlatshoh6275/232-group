@@ -134,10 +134,142 @@
 // console.log(names);
 
 
+// let name = prompt('write name which you want delete...')
 
-let names = ["Ahmadbek", "Jasur", "Samir", "Javohir", "Ilhom", "Alex", "Alex"]
+// let names = ["Ahmadbek", "Jasur", "Samir", "Javohir", "Ilhom", "Alex", "Alex"]
+
+// console.log(names);
+
+// names.filter(item => {
+//     if (item === name) {
+//         let i = names.indexOf(item)
+//         names.splice(i, 1)
+//     } else {
+//         return names
+//     }
+// })
+
+// console.log(names);
+
+// let ind = prompt('write index if you want delete someone...')
+// if (ind.trim() === '') {
+//     ind = prompt('write index if you want delete someone...')
+// } else {
+//     names.splice(ind, 1)
+// }
+// console.log(names);
 
 
-console.log(
-    names[2]
-);
+
+
+// if = agar
+
+// if(shart) {
+//     true
+// } else {
+//     false
+// }
+
+// if(shart) {
+//     true 
+// } else if(shart) {
+//     true
+// } else {
+//     false
+// }
+
+
+// || = yoki / && = va
+
+// if (shart && shart && shart) {
+//     true = qachonki ikkala shartimham true qaytarsagina
+// } else {
+//     false
+// }
+
+
+
+// if (shart || shart || shart) {
+//     true
+// } else {
+//     false
+// }
+
+
+// if (shart) {
+//     true
+// }
+
+
+// let a = 5
+
+// for (let i = 0; i < 10; i++) {
+//    if (i === a) {
+//     console.log("Salom");
+//    }
+
+// }
+
+// let names = [
+//     "Alex",
+//     "Alisa",
+//     "Alex",
+//     "George"
+// ]
+
+// let alex = []
+
+
+// let a = "10"
+
+// if (a === 10) {
+//     console.log("true");
+// } else {
+//     console.log("false");
+// }
+
+
+// let name = "Alex"
+
+// if (name === "alex" && a == "10") {
+//     console.log(true);
+
+// } else {
+//     console.log(false);
+
+// }
+
+
+
+
+// Object = malumbir elementning tuliq malumotlari
+// Object = { key / nomi : "qiymat" }
+
+
+let shkof = {
+    polka: 4,
+    eshig: 2,
+    ruchka: 4,
+    tortma: 2,
+    yangi: true,
+    price: "120 $",
+    delivery: false
+}
+
+
+// console.log(shkof);
+// console.log(shkof.price);
+
+// shkof.price = "150$"
+
+// console.log(shkof);
+// console.log(shkof.price);
+
+// shkof.owner = 'Chikko'
+
+
+let a = [[[], [[{ t: "Davlatshoh" }]], [], [[[{ n: { b: [{ s: "salom" }] } }]], [[{ d: "mening" }]],],], { h: 'ismim' }]
+
+console.log(a[0][1][0][0].t);
+
+
