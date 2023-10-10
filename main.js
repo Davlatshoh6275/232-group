@@ -246,15 +246,15 @@
 // Object = { key / nomi : "qiymat" }
 
 
-let shkof = {
-    polka: 4,
-    eshig: 2,
-    ruchka: 4,
-    tortma: 2,
-    yangi: true,
-    price: "120 $",
-    delivery: false
-}
+// let shkof = {
+//     polka: 4,
+//     eshig: 2,
+//     ruchka: 4,
+//     tortma: 2,
+//     yangi: true,
+//     price: "120 $",
+//     delivery: false
+// }
 
 
 // console.log(shkof);
@@ -268,8 +268,58 @@ let shkof = {
 // shkof.owner = 'Chikko'
 
 
-let a = [[[], [[{ t: "Davlatshoh" }]], [], [[[{ n: { b: [{ s: "salom" }] } }]], [[{ d: "mening" }]],],], { h: 'ismim' }]
+// let a = [[[], [[{ t: "Davlatshoh" }]], [], [[[{ n: { b: [{ s: "salom" }] } }]], [[{ d: "mening" }]],],], { h: 'ismim' }]
 
-console.log(a[0][1][0][0].t);
+// console.log(a[0][1][0][0].t);
 
 
+
+// loop = for // for of // for in // while // do while
+
+// let a = 0
+
+
+// for (let i = 10; i > 0; i--) {
+//     console.log(i);
+// }
+
+// let numbers = [61, 484, 84, 84, 9, 4, 1, 26, 8, 99, 4]
+// let juft = []
+// let toq = []
+
+// console.log(numbers);
+
+// for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] % 2 === 0) {
+//         juft.push(numbers[i])
+//     } else {
+//         toq.push(numbers[i])
+//     }
+// }
+
+// console.log(juft);
+// console.log(toq);
+
+
+let names = [
+    "Alex",
+    "Alisa",
+    "Akpar",
+    "Ahmed",
+    "Bahodir",
+    "Bahrom",
+    "Doniyor",
+    "Amir"
+]
+
+let a = []
+console.log(names);
+
+
+for(let i = 0; i < names.length; i++) {
+    if(names[i].charAt() === "A") {
+        a.push(names[i])
+    }
+}
+
+console.log(a);
