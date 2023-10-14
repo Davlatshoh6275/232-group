@@ -301,25 +301,229 @@
 // console.log(toq);
 
 
-let names = [
-    "Alex",
-    "Alisa",
-    "Akpar",
-    "Ahmed",
-    "Bahodir",
-    "Bahrom",
-    "Doniyor",
-    "Amir"
-]
+// let names = [
+//     "Alex",
+//     "Alisa",
+//     "Akpar",
+//     "Ahmed",
+//     "Bahodir",
+//     "Bahrom",
+//     "Doniyor",
+//     "Amir"
+// ]
 
-let a = []
-console.log(names);
+// let a = []
+// console.log(names);
 
 
-for(let i = 0; i < names.length; i++) {
-    if(names[i].charAt() === "A") {
-        a.push(names[i])
+// for(let i = 0; i < names.length; i++) {
+//     if(names[i].charAt() === "A") {
+//         a.push(names[i])
+//     }
+// }
+
+// console.log(a);
+
+
+// let txt = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo voluptas distinctio accusamus deleniti at corrupti, quia inventore vel saepe! Sint assumenda amet, laudantium hic inventore impedit exercitationem autem animi ooooooo o ooo o oo o oo o labore!"
+// console.log(txt);
+
+// let t = txt.toLowerCase().split('')
+
+// let o = []
+
+// for (let i = 0; i < t.length; i++) {
+//     if (t[i] === 'o') {
+//         o.push(t[i])
+//     }
+// }
+
+// Math.min(o.length, s.length,)
+// console.log('text ichida ' + o.length + ' ta o bor');
+
+
+// let users = [
+//     {
+//         name: "Alex",
+//         age: 18
+//     },
+//     {
+//         name: "Alex",
+//         age: 18
+//     },
+//     {
+//         name: "Alex",
+//         age: 18
+//     },
+//     {
+//         name: "Alex",
+//         age: 18
+//     },
+//     {
+//         name: "Alex",
+//         age: 25
+//     },
+//     {
+//         name: "Alex",
+//         age: 10
+//     },
+//     {
+//         name: "Alex",
+//         age: 60
+//     },
+//     {
+//         name: "Alex",
+//         age: 45
+//     },
+//     {
+//         name: "Alex",
+//         age: 17
+//     },
+//     {
+//         name: "Alex",
+//         age: 18
+//     },
+//     {
+//         name: "Alex",
+//         age: 18
+//     },
+// ]
+
+// let katta = []
+// let kichik = []
+
+
+
+let a = [4, 94, 94, 9, 9, 4, 9, 8, 48, 488]
+let b = [15, 84, 89, 94, 94, 98, 491, 9, 9, 9, 9, 984]
+
+let birXil = []
+
+for (let i = 0; i < a.length; i++) {
+    // console.log(a[i]);
+    for (let k = 0; k < b.length; k++) {
+        if (a[i] === b[k]) {
+            birXil.push(a[i])
+        }
     }
 }
 
-console.log(a);
+// console.log(birXil);
+
+
+let names = ['Alisa', "Rano", "Anis", "Ilhom", "Jahongir", "Javohir", "Samir", "Jasur", "Kamola", "Dilnoz", "Dilafruz", "Dildora", "Lalitto", "Lola", "Dilbar", "Diyora", "Shaxrizoda",
+    "Sarvinoz", "Shaxina", "Sitora"]
+
+let users = [
+    {
+        name: 'Alisa',
+        money: 5000,
+        gender: 'female'
+    },
+    {
+        name: 'Rano',
+        money: 500,
+        gender: 'female'
+    },
+    {
+        name: 'Anis',
+        money: 3000,
+        gender: 'male'
+    },
+    {
+        name: 'Ilhom',
+        money: 2000,
+        gender: 'male'
+    },
+    {
+        name: 'Jahongir',
+        money: 900,
+        gender: 'male'
+    },
+    {
+        name: 'Samir',
+        money: 50,
+        gender: 'male'
+    },
+    {
+        name: 'Jasur',
+        money: 700,
+        gender: 'male'
+    },
+    {
+        name: 'Kamola',
+        money: 54800,
+        gender: 'female'
+    },
+    {
+        name: 'Dilnoz',
+        money: 540,
+        gender: 'female'
+    },
+    {
+        name: 'Dilafruz',
+        money: 560,
+        gender: 'female'
+    },
+    {
+        name: 'Dildora',
+        money: 90,
+        gender: 'female'
+    },
+    {
+        name: 'Dildora',
+        money: 90,
+        gender: 'female'
+    },
+    {
+        name: 'Dildora',
+        money: 90,
+        gender: 'female'
+    },
+    {
+        name: 'Dildora',
+        money: 90,
+        gender: 'female'
+    },
+    {
+        name: 'Dildora',
+        money: 90,
+        gender: 'female'
+    },
+    {
+        name: 'Dildora',
+        money: 90,
+        gender: 'female'
+    },
+    {
+        name: 'Dildora',
+        money: 90,
+        gender: 'female'
+    },
+]
+
+
+// let genders = {
+//     male: 0,
+//     female: 0
+// }
+
+let total = 0
+
+for (let i = 0; i < users.length; i++) {
+    console.log(users[i]);
+    if (users[i].gender === 'female') {
+        genders.female = ++genders.female
+    } else {
+        genders.male = ++genders.male
+    }
+
+    total += users[i].money
+}
+
+console.log(genders);
+console.log(total);
+
+let genders = []
+
+
