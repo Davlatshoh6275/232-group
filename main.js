@@ -526,4 +526,48 @@
 
 // let genders = []
 
+// let names = ['Alisa', "Rano", "Anis", "Ilhom", "Jahongir", "Javohir", "Samir", "Jasur", "Kamola", "Dilnoz", "Dilafruz", "Dildora", "Lalitto", "Lola", "Dilbar", "Diyora", "Shaxrizoda",
+//     "Sarvinoz", "Shaxina", "Sitora"]
 
+
+// for(let i = 0; i < names.length; i++){
+//     console.log(names[i]);
+// }
+
+// for(let item of names) {
+//     console.log(item);
+// }
+
+// for(let item in names) {
+//     console.log(item);
+// }
+
+
+
+// function
+
+// let a = prompt("write name")
+
+// function sayHi(a) {
+//     // console.log(`hi ${name}`);
+//     console.log(a);
+//     // console.log(b);
+//     // console.log(c);
+// }
+
+// // sayHi("salom", "hello", 15, 15, 48, false, true, "salom")
+// sayHi("salom")
+// sayHi(5)
+
+// for(let i = 0; i < 10; i++){
+// }
+
+let numbers = [15, 51, 5, 15, 8, 847, 79, 6]
+
+let total = 0
+
+for (let i = 0; i < numbers.length; i++) {
+    // total = total + numbers[i]
+    total +=  numbers[i]
+    console.log(total);
+}
