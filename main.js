@@ -562,12 +562,69 @@
 // for(let i = 0; i < 10; i++){
 // }
 
-let numbers = [15, 51, 5, 15, 8, 847, 79, 6]
+// let a = "salom"
 
-let total = 0
 
-for (let i = 0; i < numbers.length; i++) {
-    // total = total + numbers[i]
-    total +=  numbers[i]
-    console.log(total);
+
+// function Click(o) {
+//     console.log(o);
+// }
+
+
+// let click = function() {
+//     console.log("salom");
+// }
+
+// window.addEventListener('click', () => {
+//     // Click(a)
+//     click()
+// })
+
+// let btn = document.querySelector('button')
+
+// btn.onclick = () => {
+//     console.log("salom");
+// }
+
+
+let numbers = [465, 640, 84, 8, 48, 989, 8489, 48, 4894, 9]
+console.log(numbers);
+
+// let sorted = numbers.sort((a, b) => a - b)
+
+// console.log(sorted);
+
+
+
+// function name(params) {
+    
+// }
+
+// let total = 0
+
+// for(let i = 0; i < numbers.length; i++) {
+//     total = total + numbers[i]
+// }
+
+
+// let total = numbers.reduce((a, b) => {
+//     return a + b
+// }, 0)
+
+// console.log(total);
+
+let a = []
+
+for(let i = 0; i < numbers.length; i++) {
+    // if(numbers[i] < 100) {
+    //     a.push(numbers[i])
+    //     break
+    // }
+
+    if (numbers[i] === 640) {
+        continue
+    }
+    console.log(numbers[i]);
+    
 }
+// console.log(a);
