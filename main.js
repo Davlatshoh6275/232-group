@@ -1067,20 +1067,90 @@
 // console.log(h1Id);
 
 
-let a = document.querySelector('.text')
+// let a = document.querySelector('.text')
+// let box = document.querySelector('.box')
+// // a.innerText = 'Hello'
+
+// a.innerHTML = '<span>hi</span>'
+
+// box.style.width = '200px'
+// box.style.height = '200px'
+// box.style.backgroundColor = 'red'
+// console.log(a);
+
+
+let text = document.querySelector('#text')
+let btn = document.querySelector('#btn')
+
+
+
+// btn.onclick = () => {
+//     console.log("salom");
+// }
+
+
+// btn.addEventListener('click', () => {
+//     active = !active
+
+//     if (active) {
+//         text.innerText = 'hello'
+//     } else {
+//         text.innerText = 'salom'
+//     }
+
+// })
+
+
+
+
 let box = document.querySelector('.box')
-// a.innerText = 'Hello'
+// let active = false
 
-a.innerHTML = '<span>hi</span>'
+// box.addEventListener('click', () => {
+//     active = !active
+//     if (active) {
+//         box.style.backgroundColor = 'red'
+//         box.style.borderRadius = '50%'
+//     } else {
+//         box.style.borderRadius = '0'
+//         box.style.backgroundColor = 'blue'
+//     }
+// })
 
-box.style.width = '200px'
-box.style.height = '200px'
-box.style.backgroundColor = 'red'
+// box.onmouseenter = () => {
+//     box.style.backgroundColor = 'red'
+//     box.style.borderRadius = '50%'
+// }
+
+// box.onmouseleave = () => {
+//     box.style.borderRadius = '0'
+//     box.style.backgroundColor = 'blue'
+// }
 
 
+// box.addEventListener('mouseenter', () => {
+//     box.style.backgroundColor = 'red'
+//     box.style.borderRadius = '50%'
+// })
 
+// box.addEventListener('mouseleave', () => {
+//     box.style.borderRadius = '0'
+//     box.style.backgroundColor = 'blue'
+// })
 
+// box.addEventListener('dblclick', () => {
+//     box.style.borderRadius = '0'
+//     box.style.backgroundColor = 'blue'
+// })
 
-console.log(a);
+// box.ondblclick = () => {
+//     box.style.backgroundColor = 'red'
+//     box.style.borderRadius = '50%'
+// }
 
+let inp = document.querySelector('input')
 
+inp.addEventListener('keyup', (event) => {
+    let value = event.target.value
+    console.log(value);
+})
