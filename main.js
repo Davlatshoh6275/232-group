@@ -1079,8 +1079,8 @@
 // console.log(a);
 
 
-let text = document.querySelector('#text')
-let btn = document.querySelector('#btn')
+// let text = document.querySelector('#text')
+// let btn = document.querySelector('#btn')
 
 
 
@@ -1103,7 +1103,7 @@ let btn = document.querySelector('#btn')
 
 
 
-let box = document.querySelector('.box')
+// let box = document.querySelector('.box')
 // let active = false
 
 // box.addEventListener('click', () => {
@@ -1148,11 +1148,43 @@ let box = document.querySelector('.box')
 //     box.style.borderRadius = '50%'
 // }
 
-let inp = document.querySelector('input')
+// let inp = document.querySelector('input')
 
-inp.addEventListener('keyup', (event) => {
-    let value = event.target.value
-    console.log(value);
+// inp.addEventListener('keyup', (event) => {
+//     let value = event.target.value
+//     console.log(value);
+// })
+
+
+let width = document.querySelector('#width')
+let height = document.querySelector('#height')
+let bgColor = document.querySelector('#bgColor')
+let add = document.querySelector('#add')
+let item = document.querySelector('.item')
+
+let w = 0
+let h = 0
+let bg = ''
+
+width.addEventListener('keyup', (event) => {
+    w = event.target.value
+})
+height.addEventListener('keyup', (event) => {
+    h = event.target.value
+
+})
+bgColor.addEventListener('keyup', (event) => {
+    bg = event.target.value
 })
 
+add.addEventListener('click', () => {
+    item.style.width = `${w}px`
+    item.style.height = `${h}px`
+    item.style.backgroundColor = bg
+
+    width.value = ''
+    height.value = ''
+    bgColor.value = ''
+
+})
 
