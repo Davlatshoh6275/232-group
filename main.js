@@ -1154,3 +1154,5 @@ inp.addEventListener('keyup', (event) => {
     let value = event.target.value
     console.log(value);
 })
+
+
