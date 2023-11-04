@@ -1188,3 +1188,52 @@
 
 // })
 
+
+
+//   classList
+
+// let active = false
+
+// box.addEventListener("click", () => {
+//     // active = !active
+//     // if (active) {
+//     //     box.classList.add('active')
+//     // } else {
+//     //     box.classList.remove('active')
+//     // }
+//     box.classList.toggle('active')
+
+//     console.log(box.classList.contains('active'));
+// })
+
+
+// let boxes = document.querySelectorAll('.item')
+
+// boxes.forEach(item => {
+//     item.addEventListener('mouseenter', () => {
+//         item.classList.add('active')
+//     })
+// })
+
+let box = document.querySelector('.box')
+let img = document.querySelector('img')
+
+let src = 'https://img.freepik.com/premium-photo/abstract-rainbow-colorful-bright-feather-closeup-up-macro-view-background-plumage-texture-with-dew-drops_753134-644.jpg'
+let src2 = 'https://img.freepik.com/premium-photo/insect-closeup-macro-photography-butterfly-wings-great-depth-field-lots-insect-details-isolated-background_76964-9026.jpg'
+let src3 = 'https://images.unsplash.com/photo-1597733336794-12d05021d510?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW50ZXJuZXR8ZW58MHx8MHx8fDA%3D'
+let src4 = 'https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
+
+box.addEventListener("click", () => {
+    let rnd = Math.round(Math.random() * 3)
+
+    if (rnd == 0) {
+        img.setAttribute('src', src)
+    } else if (rnd === 1) {
+        img.setAttribute('src', src2)
+    } else if (rnd === 2) {
+        img.setAttribute('src', src3)
+    } else if (rnd === 3) {
+        img.setAttribute('src', src4)
+    }
+
+})
