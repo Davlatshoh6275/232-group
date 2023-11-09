@@ -1274,7 +1274,45 @@
 //     imgFour.setAttribute('src', src)
 // })
 
+let start = document.querySelector('.start')
+let stopBtn = document.querySelector('.stop')
+let restart = document.querySelector('.restart')
+let minute = document.querySelector('.minute')
+let second = document.querySelector('.second')
 
-let a = 'salom'
+let interval;
+let s = 0
+let m = 0
+start.addEventListener('click', () => {
+    interval = setInterval(() => {
+        s++
+        if (s <= 9) {
+            second.innerHTML = `0${s}`
+        } else {
+            second.innerHTML = s
+
+        }
+
+        if (s == 60) {
+            m++
+            minute.innerHTML = m
+            s = 0
+            second.innerHTML = s
+        }
+    }, 100)
+})
+
+stopBtn.addEventListener('click', () => {
+    clearInterval(interval)
+})
+
+restart.addEventListener('click', () => {
+    clearInterval(interval)
+    m = 0
+    s = 0
+    minute.innerHTML = '00'
+    second.innerHTML = '00'
 
 
+
+})
