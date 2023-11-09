@@ -1238,40 +1238,41 @@
 // })
 
 
-let imgOne = document.querySelector('.imgOne')
-let imgTwo = document.querySelector('.imgTwo')
-let imgThree = document.querySelector('.imgThree')
-let imgFour = document.querySelector('.imgFour')
+// let imgOne = document.querySelector('.imgOne')
+// let imgTwo = document.querySelector('.imgTwo')
+// let imgThree = document.querySelector('.imgThree')
+// let imgFour = document.querySelector('.imgFour')
 
-let activeImg = document.querySelector('.activeImg')
-
-
-imgOne.addEventListener('click', () => {
-    let src = activeImg.getAttribute("src")
-    let src2 = imgOne.getAttribute("src")
-    activeImg.setAttribute('src', src2)
-    imgOne.setAttribute('src', src)
-})
-
-imgTwo.addEventListener('click', () => {
-    let src = activeImg.getAttribute("src")
-    let src2 = imgTwo.getAttribute("src")
-    activeImg.setAttribute('src', src2)
-    imgTwo.setAttribute('src', src)
-})
-
-imgThree.addEventListener('click', () => {
-    let src = activeImg.getAttribute("src")
-    let src2 = imgThree.getAttribute("src")
-    activeImg.setAttribute('src', src2)
-    imgThree.setAttribute('src', src)
-})
-
-imgFour.addEventListener('click', () => {
-    let src = activeImg.getAttribute("src")
-    let src2 = imgFour.getAttribute("src")
-    activeImg.setAttribute('src', src2)
-    imgFour.setAttribute('src', src)
-})
+// let activeImg = document.querySelector('.activeImg')
 
 
+// imgOne.addEventListener('click', () => {
+//     let src = activeImg.getAttribute("src")
+//     let src2 = imgOne.getAttribute("src")
+//     activeImg.setAttribute('src', src2)
+//     imgOne.setAttribute('src', src)
+// })
+
+// imgTwo.addEventListener('click', () => {
+//     let src = activeImg.getAttribute("src")
+//     let src2 = imgTwo.getAttribute("src")
+//     activeImg.setAttribute('src', src2)
+//     imgTwo.setAttribute('src', src)
+// })
+
+// imgThree.addEventListener('click', () => {
+//     let src = activeImg.getAttribute("src")
+//     let src2 = imgThree.getAttribute("src")
+//     activeImg.setAttribute('src', src2)
+//     imgThree.setAttribute('src', src)
+// })
+
+// imgFour.addEventListener('click', () => {
+//     let src = activeImg.getAttribute("src")
+//     let src2 = imgFour.getAttribute("src")
+//     activeImg.setAttribute('src', src2)
+//     imgFour.setAttribute('src', src)
+// })
+
+
+'salom'
