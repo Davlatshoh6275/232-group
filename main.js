@@ -1275,4 +1275,6 @@
 // })
 
 
-'salom'
+let a = 'salom'
+
+
