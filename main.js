@@ -1274,45 +1274,82 @@
 //     imgFour.setAttribute('src', src)
 // })
 
-let start = document.querySelector('.start')
-let stopBtn = document.querySelector('.stop')
-let restart = document.querySelector('.restart')
-let minute = document.querySelector('.minute')
-let second = document.querySelector('.second')
+// let start = document.querySelector('.start')
+// let stopBtn = document.querySelector('.stop')
+// let restart = document.querySelector('.restart')
+// let minute = document.querySelector('.minute')
+// let second = document.querySelector('.second')
 
-let interval;
-let s = 0
-let m = 0
-start.addEventListener('click', () => {
-    interval = setInterval(() => {
-        s++
-        if (s <= 9) {
-            second.innerHTML = `0${s}`
-        } else {
-            second.innerHTML = s
+// let interval;
+// let s = 0
+// let m = 0
+// start.addEventListener('click', () => {
+//     interval = setInterval(() => {
+//         s++
+//         if (s <= 9) {
+//             second.innerHTML = `0${s}`
+//         } else {
+//             second.innerHTML = s
 
-        }
+//         }
 
-        if (s == 60) {
-            m++
-            minute.innerHTML = m
-            s = 0
-            second.innerHTML = s
-        }
-    }, 100)
-})
+//         if (s == 60) {
+//             m++
+//             minute.innerHTML = m
+//             s = 0
+//             second.innerHTML = s
+//         }
+//     }, 100)
+// })
 
-stopBtn.addEventListener('click', () => {
-    clearInterval(interval)
-})
+// stopBtn.addEventListener('click', () => {
+//     clearInterval(interval)
+// })
 
-restart.addEventListener('click', () => {
-    clearInterval(interval)
-    m = 0
-    s = 0
-    minute.innerHTML = '00'
-    second.innerHTML = '00'
+// restart.addEventListener('click', () => {
+//     clearInterval(interval)
+//     m = 0
+//     s = 0
+//     minute.innerHTML = '00'
+//     second.innerHTML = '00'
+// })
 
 
+// const content = document.querySelector('.content')
+// const addBtn = document.querySelector('#add')
 
-})
+// let counter = 1
+
+// let colors = [
+//     "red",
+//     'green',
+//     'blue',
+//     'balck',
+//     "yellow",
+//     'tomato',
+//     'chocolate',
+//     'darkblue'
+// ]
+
+// let chars = '0123456789abcdef'
+
+// let a = chars.split('')
+// console.log(a);
+
+// addBtn.addEventListener('click', () => {
+//     let rnd = Math.floor(Math.random() * a.length)
+//     let rnd2 = Math.floor(Math.random() * a.length)
+//     let rnd3 = Math.floor(Math.random() * a.length)
+//     let rnd4 = Math.floor(Math.random() * a.length)
+//     let rnd5 = Math.floor(Math.random() * a.length)
+//     let rnd6 = Math.floor(Math.random() * a.length)
+
+//     let box = document.createElement('div')
+//     box.classList.add('box')
+//     // box.style.backgroundColor = colors[rnd]
+//     box.style.backgroundColor = `#${a[rnd]}${a[rnd2]}${a[rnd3]}${a[rnd4]}${a[rnd5]}${a[rnd6]}`
+//     box.innerHTML = counter
+//     // h1.innerText = `salom ${counter}`
+//     content.appendChild(box)
+//     counter++
+// })
