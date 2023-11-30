@@ -299,7 +299,6 @@ margin-bottom: 30px;
   margin: 0 auto;
   border-radius: 10px;
   padding: 20px;
-  /* background: linear-gradient(rgba(0, 0, 0, 0.37), rgba(255, 255, 255, 0.399)); */
   background-color: #2f2c2c3a;
   backdrop-filter: blur(10px);
 }
@@ -341,6 +340,7 @@ margin-bottom: 30px;
   align-items: center;
   border-radius: 15px;
   padding: 0 10px;
+  margin-bottom: 15px;
 }
 
 .conteiner .todo .todoItems .item .itemCount {
