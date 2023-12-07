@@ -1641,6 +1641,9 @@ let state = {
     todos: [],
 }
 
+
+
+
 let title = ''
 
 inpTodo.addEventListener('keyup', (e) => {
@@ -1665,9 +1668,74 @@ addTodo.addEventListener('click', (e) => {
     todoItems.insertAdjacentHTML('beforeend', todoHTml)
 
     state.todos.push(newTodo)
+
+
     counter++
     newTodo.id = counter
+    localStorage.setItem('todos', JSON.stringify(state.todos))
     inpTodo.value = ''
 
     console.log(state);
+
 })
+
+
+
+function local() {
+
+    state.todos = JSON.parse(localStorage.getItem('todos') || '[]' ) 
+
+    for (let i = 0; i < state.todos.length; i++) {
+        let todoHTml = `
+            <div class="item">
+                <h1 class="itemCount" >${state.todos[i].id}</h1>
+                <p class="itemText">${state.todos[i].title}</p>
+            </div>
+        `
+
+        todoItems.insertAdjacentHTML('beforeend', todoHTml)
+
+    }
+}
+
+local()
+
+
+// let btnPlus = document.querySelector('.btnPlus')
+// let count = document.querySelector('.count')
+// let btnMinus = document.querySelector('.btnMinus')
+
+// let a = 0
+
+
+// function getItem() {
+//     a = JSON.parse(localStorage.getItem('counter'))
+//     count.innerHTML = a
+// }
+
+// getItem()
+
+
+
+// btnPlus.addEventListener('click', () => {
+//     a++
+//     count.innerHTML = a
+
+//     localStorage.setItem('counter', JSON.stringify(a))
+// })
+
+// btnMinus.addEventListener('click', () => {
+//     a--
+
+//     if (a < 1) {
+//         a = 0
+//         count.innerHTML = '0'
+//     } else {
+
+//         count.innerHTML = a
+//     }
+
+//     localStorage.setItem('counter', JSON.stringify(a))
+// })
+
+
