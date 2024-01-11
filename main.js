@@ -11,13 +11,11 @@
 // //     console.log(false);
 // // }
 
-
 // // if (a === 10 || b === 15) {
 // //     console.log(true);
 // // } else {
 // //     console.log(false);
 // // }
-
 
 // let login = prompt("create new login")
 // let password = prompt("create new password")
@@ -38,10 +36,7 @@
 //     alert("false")
 // }
 
-
-
 // array / object
-
 
 // let arr = [
 //     "salom",
@@ -65,15 +60,11 @@
 //     arr[3]
 // );
 
-
-
 // console.log(names);
-
 
 // console.log(numbers);
 
 // console.log(names[4]);
-
 
 // let a = "Alex"
 
@@ -85,10 +76,6 @@
 
 // console.log(names[5]);
 // console.log(names);
-
-
-
-
 
 // // console.log(numbers);
 
@@ -133,7 +120,6 @@
 
 // console.log(names);
 
-
 // let name = prompt('write name which you want delete...')
 
 // let names = ["Ahmadbek", "Jasur", "Samir", "Javohir", "Ilhom", "Alex", "Alex"]
@@ -159,9 +145,6 @@
 // }
 // console.log(names);
 
-
-
-
 // if = agar
 
 // if(shart) {
@@ -178,7 +161,6 @@
 //     false
 // }
 
-
 // || = yoki / && = va
 
 // if (shart && shart && shart) {
@@ -187,19 +169,15 @@
 //     false
 // }
 
-
-
 // if (shart || shart || shart) {
 //     true
 // } else {
 //     false
 // }
 
-
 // if (shart) {
 //     true
 // }
-
 
 // let a = 5
 
@@ -219,7 +197,6 @@
 
 // let alex = []
 
-
 // let a = "10"
 
 // if (a === 10) {
@@ -227,7 +204,6 @@
 // } else {
 //     console.log("false");
 // }
-
 
 // let name = "Alex"
 
@@ -239,12 +215,8 @@
 
 // }
 
-
-
-
 // Object = malumbir elementning tuliq malumotlari
 // Object = { key / nomi : "qiymat" }
-
 
 // let shkof = {
 //     polka: 4,
@@ -256,7 +228,6 @@
 //     delivery: false
 // }
 
-
 // console.log(shkof);
 // console.log(shkof.price);
 
@@ -267,17 +238,13 @@
 
 // shkof.owner = 'Chikko'
 
-
 // let a = [[[], [[{ t: "Davlatshoh" }]], [], [[[{ n: { b: [{ s: "salom" }] } }]], [[{ d: "mening" }]],],], { h: 'ismim' }]
 
 // console.log(a[0][1][0][0].t);
 
-
-
 // loop = for // for of // for in // while // do while
 
 // let a = 0
-
 
 // for (let i = 10; i > 0; i--) {
 //     console.log(i);
@@ -300,7 +267,6 @@
 // console.log(juft);
 // console.log(toq);
 
-
 // let names = [
 //     "Alex",
 //     "Alisa",
@@ -315,7 +281,6 @@
 // let a = []
 // console.log(names);
 
-
 // for(let i = 0; i < names.length; i++) {
 //     if(names[i].charAt() === "A") {
 //         a.push(names[i])
@@ -323,7 +288,6 @@
 // }
 
 // console.log(a);
-
 
 // let txt = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo voluptas distinctio accusamus deleniti at corrupti, quia inventore vel saepe! Sint assumenda amet, laudantium hic inventore impedit exercitationem autem animi ooooooo o ooo o oo o oo o labore!"
 // console.log(txt);
@@ -340,7 +304,6 @@
 
 // Math.min(o.length, s.length,)
 // console.log('text ichida ' + o.length + ' ta o bor');
-
 
 // let users = [
 //     {
@@ -392,8 +355,6 @@
 // let katta = []
 // let kichik = []
 
-
-
 // let a = [4, 94, 94, 9, 9, 4, 9, 8, 48, 488]
 // let b = [15, 84, 89, 94, 94, 98, 491, 9, 9, 9, 9, 984]
 
@@ -409,7 +370,6 @@
 // }
 
 // // console.log(birXil);
-
 
 // let names = ['Alisa', "Rano", "Anis", "Ilhom", "Jahongir", "Javohir", "Samir", "Jasur", "Kamola", "Dilnoz", "Dilafruz", "Dildora", "Lalitto", "Lola", "Dilbar", "Diyora", "Shaxrizoda",
 //     "Sarvinoz", "Shaxina", "Sitora"]
@@ -502,7 +462,6 @@
 //     },
 // ]
 
-
 // // let genders = {
 // //     male: 0,
 // //     female: 0
@@ -529,7 +488,6 @@
 // let names = ['Alisa', "Rano", "Anis", "Ilhom", "Jahongir", "Javohir", "Samir", "Jasur", "Kamola", "Dilnoz", "Dilafruz", "Dildora", "Lalitto", "Lola", "Dilbar", "Diyora", "Shaxrizoda",
 //     "Sarvinoz", "Shaxina", "Sitora"]
 
-
 // for(let i = 0; i < names.length; i++){
 //     console.log(names[i]);
 // }
@@ -541,8 +499,6 @@
 // for(let item in names) {
 //     console.log(item);
 // }
-
-
 
 // function
 
@@ -564,12 +520,9 @@
 
 // let a = "salom"
 
-
-
 // function Click(o) {
 //     console.log(o);
 // }
-
 
 // let click = function() {
 //     console.log("salom");
@@ -586,15 +539,12 @@
 //     console.log("salom");
 // }
 
-
 // let numbers = [465, 640, 84, 8, 48, 989, 8489, 48, 4894, 9]
 // console.log(numbers);
 
 // let sorted = numbers.sort((a, b) => a - b)
 
 // console.log(sorted);
-
-
 
 // function name(params) {
 
@@ -605,7 +555,6 @@
 // for(let i = 0; i < numbers.length; i++) {
 //     total = total + numbers[i]
 // }
-
 
 // let total = numbers.reduce((a, b) => {
 //     return a + b
@@ -628,7 +577,6 @@
 
 // }
 // // console.log(a);
-
 
 // let discount = prompt('Какая скидка?')
 
@@ -706,12 +654,10 @@
 
 // const setup = () => {
 
-
 //     console.log(arr_sale);
 // }
 
 // setup()
-
 
 // let arr = [
 //     {
@@ -1026,7 +972,6 @@
 // }
 // let other = []
 
-
 // DOM Documnet Object Module
 
 // let body = document.body
@@ -1036,18 +981,15 @@
 
 // let a = body.childNodes
 
-
 // console.log(body);
 // console.log(head);
 // console.log(children);
 // console.log(child);
 // console.log(a);
 
-
 // let h1 = document.getElementsByTagName('h1')
 // let h1class = document.getElementsByClassName('genrix')
 // let h1Id = document.getElementById('salom')
-
 
 // let a = document.querySelector('#salom')
 // let b = document.querySelector('.genrix')
@@ -1066,7 +1008,6 @@
 
 // console.log(h1Id);
 
-
 // let a = document.querySelector('.text')
 // let box = document.querySelector('.box')
 // // a.innerText = 'Hello'
@@ -1078,16 +1019,12 @@
 // box.style.backgroundColor = 'red'
 // console.log(a);
 
-
 // let text = document.querySelector('#text')
 // let btn = document.querySelector('#btn')
-
-
 
 // btn.onclick = () => {
 //     console.log("salom");
 // }
-
 
 // btn.addEventListener('click', () => {
 //     active = !active
@@ -1099,9 +1036,6 @@
 //     }
 
 // })
-
-
-
 
 // let box = document.querySelector('.box')
 // let active = false
@@ -1126,7 +1060,6 @@
 //     box.style.borderRadius = '0'
 //     box.style.backgroundColor = 'blue'
 // }
-
 
 // box.addEventListener('mouseenter', () => {
 //     box.style.backgroundColor = 'red'
@@ -1154,7 +1087,6 @@
 //     let value = event.target.value
 //     console.log(value);
 // })
-
 
 // let width = document.querySelector('#width')
 // let height = document.querySelector('#height')
@@ -1188,8 +1120,6 @@
 
 // })
 
-
-
 //   classList
 
 // let active = false
@@ -1205,7 +1135,6 @@
 
 //     console.log(box.classList.contains('active'));
 // })
-
 
 // let boxes = document.querySelectorAll('.item')
 
@@ -1237,14 +1166,12 @@
 //     }
 // })
 
-
 // let imgOne = document.querySelector('.imgOne')
 // let imgTwo = document.querySelector('.imgTwo')
 // let imgThree = document.querySelector('.imgThree')
 // let imgFour = document.querySelector('.imgFour')
 
 // let activeImg = document.querySelector('.activeImg')
-
 
 // imgOne.addEventListener('click', () => {
 //     let src = activeImg.getAttribute("src")
@@ -1314,7 +1241,6 @@
 //     second.innerHTML = '00'
 // })
 
-
 // const content = document.querySelector('.content')
 // const addBtn = document.querySelector('#add')
 
@@ -1353,9 +1279,6 @@
 //     content.appendChild(box)
 //     counter++
 // })
-
-
-
 
 // let arr = [
 //     {
@@ -1632,7 +1555,6 @@
 
 // chizish()
 
-
 // const inpTodo = document.querySelector('#todo')
 // const addTodo = document.querySelector('#addTodo')
 // const todoItems = document.querySelector('.todoItems')
@@ -1640,9 +1562,6 @@
 // let state = {
 //     todos: [],
 // }
-
-
-
 
 // let title = ''
 
@@ -1669,7 +1588,6 @@
 
 //     state.todos.push(newTodo)
 
-
 //     counter++
 //     newTodo.id = counter
 //     localStorage.setItem('todos', JSON.stringify(state.todos))
@@ -1678,8 +1596,6 @@
 //     console.log(state);
 
 // })
-
-
 
 // function local() {
 
@@ -1700,16 +1616,11 @@
 
 // local()
 
-
-
-
-
 // let btnPlus = document.querySelector('.btnPlus')
 // let count = document.querySelector('.count')
 // let btnMinus = document.querySelector('.btnMinus')
 
 // let a = 0
-
 
 // function getItem() {
 //     a = JSON.parse(localStorage.getItem('counter'))
@@ -1717,8 +1628,6 @@
 // }
 
 // getItem()
-
-
 
 // btnPlus.addEventListener('click', () => {
 //     a++
@@ -1743,11 +1652,8 @@
 
 // const btn = document.querySelector('.btn')
 
-
 // console.log('sana:', date.getDate());
 // console.log('hours:', date.getHours(), "minutes:", date.getMinutes());
-
-
 
 // btn.addEventListener('click', () => {
 //     let date = new Date()
@@ -1760,9 +1666,7 @@
 //     );
 // })
 
-
 // const content = document.querySelector('.content')
-
 
 // let arr =
 //     [
@@ -1998,11 +1902,6 @@
 //         }
 //     ]
 
-
-
-
-
-
 // function createItems() {
 //     for (let i = 0; i < arr.length; i++) {
 //         let itemHtml = `
@@ -2018,11 +1917,9 @@
 //         content.insertAdjacentHTML("beforeend", itemHtml)
 //     }
 
-
 // }
 
 // createItems()
-
 
 // window.addEventListener("click", (e) => {
 //     if(e.target.hasAttribute("data-action")) {
@@ -2033,7 +1930,7 @@
 
 //         localStorage.setItem('item', JSON.stringify(a))
 
-//     }   
+//     }
 // })
 
 // const cliked = (e) => {
@@ -2045,47 +1942,83 @@
 
 // }
 
-const conteiner = document.querySelector('.conteiner')
+// const conteiner = document.querySelector('.conteiner')
 
+// let state = {
+//     todos: []
+// }
 
-let state = {
-    todos: []
-}
+// function getTodos() {
+//     fetch('https://dummyjson.com/products')
+//         .then(response => response.json())
+//         .then((rasponse) => state.todos = state.todos.concat(rasponse))
+//         .then((res) => {
+//             if (res.length > 0) {
+//                 cereateTodo()
+//             }
+//             console.log(res);
+//         })
+// }
 
-function getTodos() {
-    fetch('https://dummyjson.com/products')
-        .then(response => response.json())
-        .then((rasponse) => state.todos = state.todos.concat(rasponse))
-        .then((res) => {
-            if (res.length > 0) {
-                cereateTodo()
-            } 
-            console.log(res);
-        })
-}
+// function cereateTodo() {
+//     if (state.todos.length > 0) {
 
+//         for (let i = 0; i < state.todos[0].products.length; i++) {
+//             let h1 = document.createElement('h1')
+//             h1.innerText = state.todos[0].products[i].title
+//             conteiner.appendChild(h1)
+//         }
+//     }
+//     console.log(state.todos[0].products);
+// }
 
+// getTodos()
 
-
-function cereateTodo() {
-    if (state.todos.length > 0) {
-
-        for (let i = 0; i < state.todos[0].products.length; i++) {
-            let h1 = document.createElement('h1')
-            h1.innerText = state.todos[0].products[i].title
-            conteiner.appendChild(h1)
-        }
-    }
-    console.log(state.todos[0].products);
-}
-
-getTodos()
-
-console.log(
-    state
-);
+// console.log(
+//     state
+// );
 
 // console.log(
 
 // );
 
+let panels = document.querySelectorAll(".panel");
+let btns = document.querySelectorAll(".btn");
+
+btns.forEach((btn) => {
+  btn.addEventListener("click", (e) => {
+    let a = btn.nextElementSibling;
+    a.classList.toggle("active");
+  });
+});
+
+let spans = document.querySelectorAll("span");
+
+spans.forEach((span) => {
+  span.classList.add("spanAnim");
+});
+
+let masks = document.querySelectorAll(".mask");
+
+console.log(masks);
+let interval;
+let count = 0;
+interval = setInterval(() => {
+  masks[count].classList.add("none");
+  count++;
+  if (count === masks.length) {
+    clearInterval(interval);
+  }
+
+  console.log(count % 2);
+}, 500);
+
+// console.log(masks[count]);
+
+// let arr = [185, 1851, 841, 81, 8, 1, 8, 11];
+
+// // console.log(arr[2]);
+
+// console.log(
+//   556 %  2
+// );

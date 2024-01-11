@@ -317,7 +317,7 @@ margin-bottom: 30px;
   justify-content: center;
   align-items: center;
 } */
-
+/* 
  .conteiner .todo {
   width: 500px;
   height: 100%;
@@ -373,4 +373,78 @@ margin-bottom: 30px;
   border-right: 1px solid #000;
   padding: 0 10px 0 0;
   font-size: 26px;
+}  */
+
+
+.conteiner {
+  width: 100%;
+  height: 100vh;
+  background-color: #ccc;
+
+}
+
+.conteiner .content {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.conteiner .content button {
+  all: unset;
+  width: 100%;
+  height: 60px;
+  background-color: #a09e9e;
+  padding: 0 0 0 20px;
+  cursor: pointer;
+  transition: .5s all ;
+  font-size: 26px;
+  text-transform: uppercase;
 } 
+
+.conteiner .content button:hover {
+  background-color: #636363;
+}
+
+.conteiner .content .panel {
+  padding: 15px 30px;
+  overflow: hidden;
+  display: none;
+  transition: .5s all;
+}
+
+.active {
+  transition: .5s all;
+  display: block!important;
+}
+
+.conteiner .item {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 20px;
+}
+
+.text span  {
+  font-size: 50px;
+}
+
+.text {
+  position: relative;
+}
+
+.text .mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  top: 0;
+  opacity: 1;
+  transition: 0.5s all;
+}
+
+.none {
+  opacity: 0!important;
+}
